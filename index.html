@@ -31,7 +31,16 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <div class="page-content" style="padding-left: 100px"></div>
+        <div class="page-content">
+          <!-- Raised button with ripple -->
+          <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="myButtonClicked()"
+          >
+          Say "Hello, World!"
+          </button>
+          <!-- basic text -->
+          <div id="hello-world"></div>
       </main>
     </div>
   </body>
