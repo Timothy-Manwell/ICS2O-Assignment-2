@@ -24,6 +24,7 @@ function enterClicked() {
 /**
  * This function injects the congratulations image
  */
- function enterClicked() {
-  document.getElementById("congratulations-banner").innerHTML = "<img src='./images/congratulations-banner.jpeg' alt='congratulations' />"
- }
+function enterClicked() {
+  document.getElementById("congratulations-banner").innerHTML =
+    "<img src='./images/congratulations-banner.jpeg' alt='congratulations' />"
+}
