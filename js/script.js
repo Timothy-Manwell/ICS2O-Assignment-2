@@ -26,5 +26,5 @@ function enterClicked() {
  */
 function enterClicked() {
   document.getElementById("congratulations-banner").innerHTML =
-    "<img src='./images/congratulations-banner.jpeg' alt='congratulations' />"
+    "<img src='./images/congratulations-banner.webp' alt='congratulations' />"
 }
