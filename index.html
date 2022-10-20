@@ -24,6 +24,7 @@
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
@@ -31,15 +32,49 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+        <h3>Formula</h3>
+        <h4>A=bh/2</h4>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          <p>Base in cm</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="base-of-triangle"
+            />
+            <label class="mdl-textfield__label" for="base-entered"
+              >Base here ...</label
+            >
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <!-- Numeric Textfield -->
+        <form action="#">
+          <p>Height in cm</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="height-of-triangle"
+            />
+            <label class="mdl-textfield__label" for="height-entered"
+              >Height here ...</label
+            >
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
         <!-- Raised button with ripple -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()"
+          onclick="enterClicked()"
         >
-          Say "Hello, World!"
+          Enter
         </button>
-        <!-- basic text -->
-        <div id="hello-world"></div>
+        <br />
+        <div id="area-of-triangle"></div>
       </main>
     </div>
   </body>
