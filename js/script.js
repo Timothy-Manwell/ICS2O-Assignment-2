@@ -20,4 +20,3 @@ function enterClicked() {
   document.getElementById("area-of-triangle").innerHTML =
     "The area of the triangle is " + area + " cm²."
 }
-
