@@ -21,6 +21,11 @@
   opacity: 0.001;
 }
 
+.image-1 {
+width: 45%;
+height: auto;
+}
+
 body {
   background-color: white;
 }
