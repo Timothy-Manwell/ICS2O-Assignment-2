@@ -18,13 +18,5 @@ function enterClicked() {
 
   //output
   document.getElementById("area-of-triangle").innerHTML =
-    "The area of the triangle is " + area + " cm²."
-}
-
-/**
- * This function injects the congratulations image
- */
-function enterClicked() {
-  document.getElementById("congratulations-banner").innerHTML =
-    "<img src='./images/congratulations-banner.webp' alt='congratulations' class='image-2' />"
+    "The area of the triangle is: " + area + " cm²."
 }
