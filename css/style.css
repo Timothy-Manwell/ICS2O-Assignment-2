@@ -22,6 +22,12 @@
 }
 
 .image-1 {
+  float: left;
+  width: 20%;
+  height: auto;
+}
+
+.image-2 {
   width: 20%;
   height: auto;
 }
@@ -35,4 +41,17 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   padding-top: 5pt;
+}
+
+h3 {
+float: right;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+h4 {
+font-family: Helvetica, Arial, sans-serif;
+}
+
+h5 {
+font-family: Helvetica, Arial, sans-serif;
 }
