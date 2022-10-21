@@ -23,14 +23,11 @@
 
 .image-1 {
   float: left;
+  padding-right: 10px;
   width: 20%;
   height: auto;
 }
 
-.image-2 {
-  width: 20%;
-  height: auto;
-}
 
 body {
   background-color: white;
